@@ -1,18 +1,12 @@
-A simple utility tool
+A web app contains many basic apps like
 
-Includes:
 1. Standard Calculator
 2. Scientific Calcuator
-3. Programmatic calculator
+3. Unit converter
 4. Currency Converter
-5. Weather App
-6. Stopwatch or Timer
+5. Stopwatch
+6. Tic Toe
+7. Weather App
+8. Random Quotes
 
-App with theme 
-Light Dark Red Green Blue
-
-Components
-Dashboard With phone apps display
-and showing icon of above apps with animation and app also opens with animation
-
-
+Features
