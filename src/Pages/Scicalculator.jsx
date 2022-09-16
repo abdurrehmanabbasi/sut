@@ -10,6 +10,7 @@ const Scicalculator = () => {
         {/*Wrapper for Calculator*/}
         <div className='flex'>
         <Screen className={"w-full h-28 text-6xl bg-transparent text-right p-3 overflow-x-auto scroll"} value={0}/>
+        Area for button
         </div>
     </Bounce>
     </> );
