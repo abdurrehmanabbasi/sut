@@ -9,7 +9,7 @@ const Scicalculator = () => {
     <Bounce>
         {/*Wrapper for Calculator*/}
         <div className='flex'>
-        <Screen value={0}/>
+        <Screen className={"w-full h-28 text-6xl bg-transparent text-right p-3 overflow-x-auto scroll"} value={0}/>
         </div>
     </Bounce>
     </> );
