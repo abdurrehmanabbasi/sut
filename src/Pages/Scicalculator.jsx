@@ -1,5 +1,6 @@
 import { Bounce } from 'react-awesome-reveal';
 import { Helmet } from 'react-helmet';
+import Screen from '../Components/Screen.jsx'
 const Scicalculator = () => {
     return ( <>
     <Helmet>
@@ -8,7 +9,7 @@ const Scicalculator = () => {
     <Bounce>
         {/*Wrapper for Calculator*/}
         <div className='flex'>
-        Scientific Calculator
+        <Screen value={0}/>
         </div>
     </Bounce>
     </> );
