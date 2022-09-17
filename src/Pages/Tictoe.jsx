@@ -43,7 +43,7 @@ const Tictoe = () => {
         {winner ?<div class="flex flex-col">{`Winner is ${!player?'X':'O'}`}<button onClick={restart}>Restart</button></div>:
         <div className="inline-grid grid-cols-3  space-x-1 space-y-1 w-1/2">
             {board.map((v,i)=>
-                    <button className="bg-white opacity-40 text-black p-5" key={i} onClick={()=>handleCheck(i)} >{v}</button>
+                    <button className="bg-white opacity-30 text-black p-5" key={i} onClick={()=>handleCheck(i)} >{v==="X"?'╳':v}</button>
             )}
         <div>{`Player is ${player?'X':'O'}`}</div>
         </div>
