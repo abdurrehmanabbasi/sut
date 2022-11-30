@@ -8,5 +8,3 @@ A web app contains many basic apps like
 6. Tic Toe
 7. Weather App
 8. Random Quotes
-
-Features
